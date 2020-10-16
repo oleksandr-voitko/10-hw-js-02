@@ -16,20 +16,18 @@
 
 // console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
 
-console.log('Задание 5');
+console.log("Задание 5");
 
-const checkForSpam = function(message) {
-    
-    const messageLower = message.toLowerCase();
+const checkForSpam = function (message) {
+  const messageLower = message.toLowerCase();
 
-    console.log(messageLower.includes('spam') || messageLower.includes('sale'));
-
+  console.log(messageLower.includes("spam") || messageLower.includes("sale"));
 };
 
-console.log(checkForSpam('Latest technology news'));
+console.log(checkForSpam("Latest technology news"));
 
-console.log(checkForSpam('JavaScript weekly newsletter'));
+console.log(checkForSpam("JavaScript weekly newsletter"));
 
-console.log(checkForSpam('Get best sale offers now!'));
+console.log(checkForSpam("Get best sale offers now!"));
 
-console.log(checkForSpam('[SPAM] How to earn fast money?'));
+console.log(checkForSpam("[SPAM] How to earn fast money?"));

@@ -10,7 +10,7 @@
 // const numbers = [];
 // let total = 0;
 
-console.log('Задание 6');
+console.log("Задание 6");
 
 let input;
 const numbers = [];
@@ -19,22 +19,20 @@ let i = 0;
 let namber = 0;
 
 do {
-    
-    input = prompt('Введите число');
+  input = prompt("Введите число");
 
-    if (Number(input)) {
-        numbers[i] = Number(input);
-    } 
-    
-    i +=1;
+  if (Number(input)) {
+    numbers[i] = Number(input);
+  }
+
+  i += 1;
 } while (input);
 
-if (numbers.length > 0 ){
-    for (let namber of numbers){
-        total += namber;
-    }
-    console.log(`Общая сумма чисел равна ${total}`);
+if (numbers.length > 0) {
+  for (let namber of numbers) {
+    total += namber;
+  }
+  console.log(`Общая сумма чисел равна ${total}`);
 } else {
-    console.log(`Масив пустой`);
+  console.log(`Масив пустой`);
 }
-

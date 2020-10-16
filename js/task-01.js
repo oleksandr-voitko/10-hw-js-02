@@ -14,19 +14,16 @@
 
 // logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
 
-console.log('Задание 1');
+console.log("Задание 1");
 
-const logItems = function(array) {
-    let arrayLength = array.length;
+const logItems = function (array) {
+  let arrayLength = array.length;
 
-    for (let i = 0; i < arrayLength; i += 1 ) {
+  for (let i = 0; i < arrayLength; i += 1) {
+    console.log(`${i + 1} - ${array[i]}`);
+  }
+};
 
-        console.log(`${i + 1} - ${array[i]}`);
+logItems(["Mango", "Poly", "Ajax", "Lux", "Jay", "Kong"]);
 
-    }
-
-  };
-
-  logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
-  
-  logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
+logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);

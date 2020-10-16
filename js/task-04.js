@@ -26,29 +26,28 @@
 // );
 // // вернется форматированная строка
 
-console.log('Задание 4');
+console.log("Задание 4");
 
-const formatString = function(string) {
-    const stringLength = string.length;
-    let newString = ``;
+const formatString = function (string) {
+  const stringLength = string.length;
+  let newString = ``;
 
-    if (stringLength <= 40) {
-        return string;
-    }
+  if (stringLength <= 40) {
+    return string;
+  }
 
-    newString = string.slice(0, 40) + '...';
-    return newString;
-
+  newString = string.slice(0, 40) + "...";
+  return newString;
 };
 
-console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
+console.log(formatString("Curabitur ligula sapien, tincidunt non."));
 
-console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
-  
-console.log(formatString('Curabitur ligula sapien.'));
+console.log(formatString("Vestibulum facilisis, purus nec pulvinar iaculis."));
+
+console.log(formatString("Curabitur ligula sapien."));
 
 console.log(
   formatString(
-    'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
-  ),
+    "Nunc sed turpis. Curabitur a felis in nunc fringilla tristique."
+  )
 );
