@@ -24,6 +24,14 @@ const checkForSpam = function (message) {
   console.log(messageLower.includes("spam") || messageLower.includes("sale"));
 };
 
+// const checkForSpam = function(message) {
+//   const massageLowerCase = message.toLowerCase();
+ 
+//   return massageLowerCase.includes('spam') || massageLowerCase.includes('sale')
+//   ? 'true'
+//   : 'false';
+// };
+
 console.log(checkForSpam("Latest technology news"));
 
 console.log(checkForSpam("JavaScript weekly newsletter"));

@@ -39,6 +39,17 @@ const calculateEngravingPrice = function (message, pricePerWord) {
   return priceEnfraving;
 };
 
+// const calculateEngravingPrice = function(message, pricePerWord) {
+//   const messageWords = message.split(' ');
+//   let wordСount = 0;
+
+//   for (const word of messageWords) {
+//     wordСount += 1;
+//   }
+
+//   return pricePerWord * wordСount;
+// };
+
 console.log(
   calculateEngravingPrice(
     "Proin sociis natoque et magnis parturient montes mus",
